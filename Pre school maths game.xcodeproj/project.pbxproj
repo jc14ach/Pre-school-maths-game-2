@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFBAEC091E5B65C2002E1829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAEC081E5B65C2002E1829 /* AppDelegate.swift */; };
+		EFBAEC0B1E5B65C2002E1829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAEC0A1E5B65C2002E1829 /* ViewController.swift */; };
+		EFBAEC0E1E5B65C2002E1829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBAEC0C1E5B65C2002E1829 /* Main.storyboard */; };
+		EFBAEC101E5B65C2002E1829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBAEC0F1E5B65C2002E1829 /* Assets.xcassets */; };
+		EFBAEC131E5B65C2002E1829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBAEC111E5B65C2002E1829 /* LaunchScreen.storyboard */; };
+		EFBAEC1E1E5B65C3002E1829 /* Pre_school_maths_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAEC1D1E5B65C3002E1829 /* Pre_school_maths_gameTests.swift */; };
+		EFBAEC291E5B65C3002E1829 /* Pre_school_maths_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAEC281E5B65C3002E1829 /* Pre_school_maths_gameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFBAEC1A1E5B65C3002E1829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBAEBFD1E5B65C2002E1829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBAEC041E5B65C2002E1829;
+			remoteInfo = "Pre school maths game";
+		};
+		EFBAEC251E5B65C3002E1829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBAEBFD1E5B65C2002E1829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBAEC041E5B65C2002E1829;
+			remoteInfo = "Pre school maths game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFBAEC051E5B65C2002E1829 /* Pre school maths game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pre school maths game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBAEC081E5B65C2002E1829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFBAEC0A1E5B65C2002E1829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFBAEC0D1E5B65C2002E1829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFBAEC0F1E5B65C2002E1829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBAEC121E5B65C2002E1829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFBAEC141E5B65C2002E1829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBAEC191E5B65C3002E1829 /* Pre school maths gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pre school maths gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBAEC1D1E5B65C3002E1829 /* Pre_school_maths_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_school_maths_gameTests.swift; sourceTree = "<group>"; };
+		EFBAEC1F1E5B65C3002E1829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBAEC241E5B65C3002E1829 /* Pre school maths gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pre school maths gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBAEC281E5B65C3002E1829 /* Pre_school_maths_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_school_maths_gameUITests.swift; sourceTree = "<group>"; };
+		EFBAEC2A1E5B65C3002E1829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBAEC021E5B65C2002E1829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBAEC161E5B65C3002E1829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBAEC211E5B65C3002E1829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFBAEBFC1E5B65C2002E1829 = {
+			isa = PBXGroup;
+			children = (
+				EFBAEC071E5B65C2002E1829 /* Pre school maths game */,
+				EFBAEC1C1E5B65C3002E1829 /* Pre school maths gameTests */,
+				EFBAEC271E5B65C3002E1829 /* Pre school maths gameUITests */,
+				EFBAEC061E5B65C2002E1829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBAEC061E5B65C2002E1829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBAEC051E5B65C2002E1829 /* Pre school maths game.app */,
+				EFBAEC191E5B65C3002E1829 /* Pre school maths gameTests.xctest */,
+				EFBAEC241E5B65C3002E1829 /* Pre school maths gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBAEC071E5B65C2002E1829 /* Pre school maths game */ = {
+			isa = PBXGroup;
+			children = (
+				EFBAEC081E5B65C2002E1829 /* AppDelegate.swift */,
+				EFBAEC0A1E5B65C2002E1829 /* ViewController.swift */,
+				EFBAEC0C1E5B65C2002E1829 /* Main.storyboard */,
+				EFBAEC0F1E5B65C2002E1829 /* Assets.xcassets */,
+				EFBAEC111E5B65C2002E1829 /* LaunchScreen.storyboard */,
+				EFBAEC141E5B65C2002E1829 /* Info.plist */,
+			);
+			path = "Pre school maths game";
+			sourceTree = "<group>";
+		};
+		EFBAEC1C1E5B65C3002E1829 /* Pre school maths gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFBAEC1D1E5B65C3002E1829 /* Pre_school_maths_gameTests.swift */,
+				EFBAEC1F1E5B65C3002E1829 /* Info.plist */,
+			);
+			path = "Pre school maths gameTests";
+			sourceTree = "<group>";
+		};
+		EFBAEC271E5B65C3002E1829 /* Pre school maths gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFBAEC281E5B65C3002E1829 /* Pre_school_maths_gameUITests.swift */,
+				EFBAEC2A1E5B65C3002E1829 /* Info.plist */,
+			);
+			path = "Pre school maths gameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBAEC041E5B65C2002E1829 /* Pre school maths game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBAEC2D1E5B65C3002E1829 /* Build configuration list for PBXNativeTarget "Pre school maths game" */;
+			buildPhases = (
+				EFBAEC011E5B65C2002E1829 /* Sources */,
+				EFBAEC021E5B65C2002E1829 /* Frameworks */,
+				EFBAEC031E5B65C2002E1829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pre school maths game";
+			productName = "Pre school maths game";
+			productReference = EFBAEC051E5B65C2002E1829 /* Pre school maths game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFBAEC181E5B65C3002E1829 /* Pre school maths gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBAEC301E5B65C3002E1829 /* Build configuration list for PBXNativeTarget "Pre school maths gameTests" */;
+			buildPhases = (
+				EFBAEC151E5B65C3002E1829 /* Sources */,
+				EFBAEC161E5B65C3002E1829 /* Frameworks */,
+				EFBAEC171E5B65C3002E1829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBAEC1B1E5B65C3002E1829 /* PBXTargetDependency */,
+			);
+			name = "Pre school maths gameTests";
+			productName = "Pre school maths gameTests";
+			productReference = EFBAEC191E5B65C3002E1829 /* Pre school maths gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFBAEC231E5B65C3002E1829 /* Pre school maths gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBAEC331E5B65C3002E1829 /* Build configuration list for PBXNativeTarget "Pre school maths gameUITests" */;
+			buildPhases = (
+				EFBAEC201E5B65C3002E1829 /* Sources */,
+				EFBAEC211E5B65C3002E1829 /* Frameworks */,
+				EFBAEC221E5B65C3002E1829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBAEC261E5B65C3002E1829 /* PBXTargetDependency */,
+			);
+			name = "Pre school maths gameUITests";
+			productName = "Pre school maths gameUITests";
+			productReference = EFBAEC241E5B65C3002E1829 /* Pre school maths gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBAEBFD1E5B65C2002E1829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jc14ach;
+				TargetAttributes = {
+					EFBAEC041E5B65C2002E1829 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EFBAEC181E5B65C3002E1829 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFBAEC041E5B65C2002E1829;
+					};
+					EFBAEC231E5B65C3002E1829 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFBAEC041E5B65C2002E1829;
+					};
+				};
+			};
+			buildConfigurationList = EFBAEC001E5B65C2002E1829 /* Build configuration list for PBXProject "Pre school maths game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBAEBFC1E5B65C2002E1829;
+			productRefGroup = EFBAEC061E5B65C2002E1829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBAEC041E5B65C2002E1829 /* Pre school maths game */,
+				EFBAEC181E5B65C3002E1829 /* Pre school maths gameTests */,
+				EFBAEC231E5B65C3002E1829 /* Pre school maths gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBAEC031E5B65C2002E1829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBAEC131E5B65C2002E1829 /* LaunchScreen.storyboard in Resources */,
+				EFBAEC101E5B65C2002E1829 /* Assets.xcassets in Resources */,
+				EFBAEC0E1E5B65C2002E1829 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBAEC171E5B65C3002E1829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBAEC221E5B65C3002E1829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBAEC011E5B65C2002E1829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBAEC0B1E5B65C2002E1829 /* ViewController.swift in Sources */,
+				EFBAEC091E5B65C2002E1829 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBAEC151E5B65C3002E1829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBAEC1E1E5B65C3002E1829 /* Pre_school_maths_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBAEC201E5B65C3002E1829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBAEC291E5B65C3002E1829 /* Pre_school_maths_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFBAEC1B1E5B65C3002E1829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBAEC041E5B65C2002E1829 /* Pre school maths game */;
+			targetProxy = EFBAEC1A1E5B65C3002E1829 /* PBXContainerItemProxy */;
+		};
+		EFBAEC261E5B65C3002E1829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBAEC041E5B65C2002E1829 /* Pre school maths game */;
+			targetProxy = EFBAEC251E5B65C3002E1829 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFBAEC0C1E5B65C2002E1829 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBAEC0D1E5B65C2002E1829 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFBAEC111E5B65C2002E1829 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBAEC121E5B65C2002E1829 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFBAEC2B1E5B65C3002E1829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFBAEC2C1E5B65C3002E1829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBAEC2E1E5B65C3002E1829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pre school maths game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Pre-school-maths-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFBAEC2F1E5B65C3002E1829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pre school maths game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Pre-school-maths-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFBAEC311E5B65C3002E1829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pre school maths gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Pre-school-maths-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pre school maths game.app/Pre school maths game";
+			};
+			name = Debug;
+		};
+		EFBAEC321E5B65C3002E1829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pre school maths gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Pre-school-maths-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pre school maths game.app/Pre school maths game";
+			};
+			name = Release;
+		};
+		EFBAEC341E5B65C3002E1829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pre school maths gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Pre-school-maths-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pre school maths game";
+			};
+			name = Debug;
+		};
+		EFBAEC351E5B65C3002E1829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pre school maths gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Pre-school-maths-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pre school maths game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBAEC001E5B65C2002E1829 /* Build configuration list for PBXProject "Pre school maths game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBAEC2B1E5B65C3002E1829 /* Debug */,
+				EFBAEC2C1E5B65C3002E1829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBAEC2D1E5B65C3002E1829 /* Build configuration list for PBXNativeTarget "Pre school maths game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBAEC2E1E5B65C3002E1829 /* Debug */,
+				EFBAEC2F1E5B65C3002E1829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFBAEC301E5B65C3002E1829 /* Build configuration list for PBXNativeTarget "Pre school maths gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBAEC311E5B65C3002E1829 /* Debug */,
+				EFBAEC321E5B65C3002E1829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFBAEC331E5B65C3002E1829 /* Build configuration list for PBXNativeTarget "Pre school maths gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBAEC341E5B65C3002E1829 /* Debug */,
+				EFBAEC351E5B65C3002E1829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBAEBFD1E5B65C2002E1829 /* Project object */;
+}
